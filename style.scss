@@ -1,0 +1,142 @@
+@use 'app.css';
+
+body{
+    height: 100vh;
+}
+#container{
+    background-image: url(images/netflixbg.jpeg);
+    background-size: cover;
+    height: 100%;
+} 
+#play{
+    padding: .5rem;
+    background-color: red;
+    border-radius: 50%;
+}
+#image{
+    width: 70%;
+}
+#leftimg{
+    background-size: cover;
+}
+#back{
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+.tr{
+    align-self: center;
+    padding: .5rem;
+    border-radius: 50%;
+    font-size: smaller;
+}
+#redp {
+    color: red;
+}
+#nav {
+    justify-content: space-between;
+}
+#srch{
+    align-items: center;
+}
+#profile{
+    border-radius: 25px;
+}
+#noti {
+    padding: .5rem;
+    border-radius: 50%;
+    align-self: center;
+}
+.user{
+    align-self: center;
+    font-size: xx-large;
+}
+#sb{
+    background-image: url(images/image-snd.jpeg);
+    align-items: flex-end;
+    justify-content: space-between;
+}
+#na{
+    background-image: url(images/image-na.webp);
+    align-items: flex-end;
+    justify-content: space-between;
+}
+#w{
+    background-image: url(images/wqRQ8hJmvwLVycDJham9qF-1200-80.jpeg);
+    align-items: flex-end;
+    justify-content: space-between;
+}
+#pb {
+    background-image: url(images/peakyblinders.jpeg);
+    background-size: cover;
+    align-items: flex-end;
+}
+.pbw{
+    background-color: red;
+    padding: 5px 10px;
+}
+.pbp{
+    background-color: #5d5d5e;
+    padding: .5rem;
+}
+#sb, #na, #w, #b99, #rp, #mh, #ash, #red, #ext, #adam, #old{
+    background-size: cover;
+    border-radius: 1rem;
+}
+#b99{
+    background-image: url(images/brooklyn.jpeg);
+    align-items: flex-end;
+    justify-content: space-between;
+}
+#bbg{
+    justify-content: space-between;
+    padding: 0 10px 10px 10px;
+}
+#dots{
+    align-self: flex-end;
+}
+#rp{
+    background-image: url(images/ready-2.jpeg);
+    align-items: flex-end;
+    justify-content: space-between;
+}
+#mh{
+    background-image: url(images/Money-Heist-Season-4-1280x720.png);
+    align-items: flex-end;
+    justify-content: space-between;
+}
+#ash{
+    background-image: url(images/ashvsevil.jpeg);
+    align-items: flex-end;
+    justify-content: space-between;
+}
+#red{
+    background-image: url(images/notice.jpeg);
+    justify-content: flex-end;
+}
+.progress{
+    background-color: red;
+}
+.progress2{
+    background-color: white;
+}
+#ext{
+    background-image: url(images/extraction-anatomy1-superJumbo.jpeg);
+    justify-content: flex-end;
+}
+#adam{
+    background-image: url(images/adampro.jpeg);
+    justify-content: flex-end;
+}
+#old{
+    background-image: url(images/oldguard.jpeg);
+    justify-content: flex-end;
+}
+.btm{
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.watch{
+    text-align: center;
+}

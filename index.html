@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--<script src="https://cdn.tailwindcss.com"></script>-->
+        <link rel="stylesheet" href="app.css">
+        <link rel="stylesheet" href="style.css">
+        <!--<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="flex" id="container">
+            <div class="text-white text-2xl flex flex-col rounded-3xl mx-5 px-1 my-auto items-center h-fit backdrop-blur-sm bg-white/30 backdrop-brightness-50 border" id="options">
+                <span class="fa fas mb-4 mt-1" id="play">&#xf144;</span>
+                <span class="fa fas mb-4">&#xf0c8;</span>
+                <span class="fa fas mb-4">&#xf26c;</span>
+                <span class="fa fas mb-4">&#xf111;</span>
+                <span class="fa fa-solid fa-house-chimney mb-4">&#xf015;</span>
+                <span class="fa fas mb-4">&#xf002;</span>
+            </div>
+            <div class="flex grow my-5 mr-5  rounded-2xl backdrop-blur-sm bg-white/30 backdrop-brightness-50 border" id="holder">
+                <div class="text-white flex-none w-1/4 h-full px-5" id="left">
+                    <div class="h-2/5">
+                        <img id="image" class="mt-5 mb-6" src="images/Netflix-Logo-HD-969608938.png">
+                        <p><span id="redp" class="fa fas mb-5 pr-3">&#xf144;</span>Browse</p>
+                        <p><span class="fa fas mb-5 pr-3">&#xf004;</span>Watchlist</p>
+                        <p><span class="fa fa-solid fa-calendar-week mb-5 pr-3">&#xf133;</span>Coming Soon</p>
+                        <h1 class="mb-5 mt-6">New Trailers<span class="ml-3">&#x1f525;</span></h1>
+                    </div>
+                    <div class="h-3/5" id="leftimg">
+                        <div class="h-1/4 mb-5 flex" id="sb">
+                            <div id="back" class="flex backdrop-blur-sm bg-white/30 rounded-b-2xl w-full">
+                                <p class="self-center">Shadow and Bone</p>
+                                <span class="tr fa fas items-center p-1.5 backdrop-blur-md bg-white/30 rounded-full">&#xf04b;</span>
+                            </div>
+                        </div>
+                        <div class="h-1/4 mb-5 flex" id="na">
+                            <div id="back" class="flex backdrop-blur-sm bg-white/30 rounded-b-2xl w-full">
+                                <p class="self-center">The Night Agent</p>
+                                <span class="tr fa fas items-center p-1.5 backdrop-blur-md bg-white/30 rounded-full">&#xf04b;</span>
+                            </div>
+                        </div>
+                        <div class="h-1/4 mb-5 flex" id="w">
+                            <div id="back" class="flex backdrop-blur-sm bg-white/30 rounded-b-2xl w-full">
+                                <p class="self-center">The Witcher</p>
+                                <span class="tr fa fas items-center p-1.5 backdrop-blur-md bg-white/30 rounded-full">&#xf04b;</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                <div class="grow rounded-r-2xl border-l backdrop-blur-md bg-white/30 backdrop-brightness-0" id="right">  
+                    <div class="flex mt-5 mx-5" id="nav">
+                        <div id="srch" class="flex text-white">
+                            <span class="fa fas mr-5">&#xf053;</span>
+                            <span class="fa fas mr-5">&#xf054;</span>
+                            <p class="bg-slate-600 rounded-2xl pr-10"><span class="fa fas p-2">&#xf130;</span>Search...</p>
+                        </div>
+                        <div class="flex text-white">
+                            <span id="noti" class="fa bg-slate-600 mr-5">&#xf0f3;</span>
+                            <div class="bg-slate-600 p-2 flex" id="profile">
+                                <span class="user fa">&#xf2bd;</span>
+                                <div>
+                                    <p class="text-sm">Samantha G.</p>
+                                    <p class="text-xs">@Samantha</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" m-5 h-2/6 rounded-2xl text-white flex" id="pb">
+                        <div class="ml-5 mb-5">
+                            <p class="text-xs mb-5">2013 - Drama - 5 Seasons</p>
+                            <div class="flex">
+                                <p class="pbw rounded mr-3">Watch</p>
+                                <span class="pbp fa fas rounded">&#x2b;</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-white text-xl ml-5 mb-5">Popcorn Mania</p>
+                    <div class="h-1/5 flex gap-3 mx-5 text-white" id="pop">
+                        <div class="h-full w-1/4 flex" id="b99">
+                            <div id="bbg" class="bg-zinc-950 flex rounded-b-2xl w-full">
+                                <div>
+                                    <p>Brooklyn Nine-Nine</p>
+                                    <p class="text-xs flex">2020 <span>U/A 16+</span> <span>7 Seasons</span></p>
+                                </div>
+                                <span id="dots" class="fa fas">&#xf142;</span>
+                            </div>
+                        </div>
+                        <div class="h-full w-1/4 flex" id="rp">
+                            <div id="bbg" class="bg-zinc-950 flex rounded-b-2xl w-full">
+                                <div>
+                                    <p>Ready Player One</p>
+                                    <p class="text-xs flex">2018 <span>U/A 13+</span> <span>2h 20m</span></p>
+                                </div>
+                                <span id="dots" class="fa fas">&#xf142;</span>
+                            </div>
+                        </div>
+                        <div class="h-full w-1/4 flex" id="mh">
+                            <div id="bbg" class="bg-zinc-950 flex rounded-b-2xl w-full">
+                                <div>
+                                    <p>Money Heist</p>
+                                    <p class="text-xs flex">2021 <span>A</span> <span>2h 20m</span></p>
+                                </div>
+                                <span id="dots" class="fa fas">&#xf142;</span>
+                            </div>
+                        </div>
+                        <div class="h-full w-1/4 flex" id="ash">
+                            <div id="bbg" class="bg-zinc-950 flex rounded-b-2xl w-full">
+                                <div>
+                                    <p>Ash vs. Evil Dead</p>
+                                    <p class="text-xs flex">2018 <span>A</span> <span>3 Seasons</span></p>
+                                </div>
+                                <span id="dots" class="fa fas">&#xf142;</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="text-white text-xl ml-5 mb-5">Continue Watching</p>
+                    <div class="h-1/6 flex gap-3 mx-5 text-white" id="continue">
+                        <div class="h-3/4 w-1/4 flex flex-col" id="red">
+                            <div class="btm flex flex-col">
+                                <span class="watch fa fas flex">&#xf04b;</span>
+                                <p class="bar">Red Notice</p>
+                                <div class="flex">
+                                    <div class="progress h-1 w-full rounded-l"></div>
+                                    <div class="progress2 h-1 w-full rounded-r"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="h-3/4 w-1/4 flex flex-col" id="ext">
+                            <div class="btm flex flex-col">
+                                <span class="watch fa fas flex">&#xf04b;</span>
+                                <p class="bar">Extraction</p>
+                                <div class="flex">
+                                    <div class="progress h-1 w-full rounded-l"></div>
+                                    <div class="progress2 h-1 w-full rounded r"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="h-3/4 w-1/4 flex flex-col" id="adam">
+                            <div class="btm flex flex-col">
+                                <span class="watch fa fas flex">&#xf04b;</span>
+                                <p class="bar">The Adam Project</p>
+                                <div class="flex">
+                                    <div class="progress h-1 w-full rounded-l"></div>
+                                    <div class="progress2 h-1 w-full rounded-r"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="h-3/4 w-1/4 flex flex-col" id="old">
+                            <div class="btm flex flex-col">
+                                <span class="watch fa fas flex">&#xf04b;</span>
+                                <p class="bar">The Old Guard</p>
+                                <div class="flex">
+                                    <div class="progress h-1 w-full rounded-l"></div>
+                                    <div class="progress2 h-1 w-full rounded-r"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
